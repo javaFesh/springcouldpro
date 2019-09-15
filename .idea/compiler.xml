@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="account2" />
+        <module name="clientfeign" />
+        <module name="eurekserver" />
+        <module name="user2" />
+        <module name="upload" />
+        <module name="menu" />
+        <module name="order" />
+        <module name="account" />
+        <module name="order2" />
+        <module name="configserver" />
+        <module name="user" />
+        <module name="eurekaserver" />
+        <module name="menu2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="registrycenter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account" options="-parameters" />
+      <module name="account2" options="-parameters" />
+      <module name="clientfeign" options="-parameters" />
+      <module name="configserver" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
+      <module name="eurekserver" options="-parameters" />
+      <module name="menu" options="-parameters" />
+      <module name="menu2" options="-parameters" />
+      <module name="order" options="-parameters" />
+      <module name="order2" options="-parameters" />
+      <module name="registrycenter" options="-parameters" />
+      <module name="springcould_pro" options="-parameters" />
+      <module name="upload" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="user2" options="-parameters" />
+    </option>
+  </component>
+</project>

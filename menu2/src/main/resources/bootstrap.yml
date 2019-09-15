@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: menu2
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://192.168.4.189:8762
+      fail-fast: true
